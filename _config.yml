@@ -1,14 +1,14 @@
 # ---------
 # JEKYLL CONFIGURATION
 # More info at https://jekyllrb.com/docs/configuration/options/
-# ---------
+# -------
 # TO USE JEKYLL LIBDOC AS REMOTE THEME, UNCOMMENT (available only on Github)
-remote_theme: olivier3lanc/Jekyll-LibDoc
-title: Jekyll LibDoc as remote theme
+# remote_theme: olivier3lanc/Jekyll-LibDoc
+title: LibDoc # title of the documentation
 description: >- # Description of the docs. (>- means to ignore newlines until next param)
-  An example of a repository using Jekyll LibDoc as a remote theme
+  A Jekyll documentation theme with built-in search and playground
 # IMPORTANT: on Github Pages deploys, url and baseurl must be commented or set to proper settings, otherwise links and resources URL are wrong
-# url: http://localhost # the base hostname & protocol for your site, e.g. http://example.com
+url: http://localhost # the base hostname & protocol for your site, e.g. http://example.com
 # baseurl: /Jekyll-LibDoc/_site # the subpath of your site, e.g. /blog
 #permalink: /:path/:basename/:output_ext
 #destination: ../your/new/path # Build relative path destination. The destination directory e.g. /blog
@@ -169,7 +169,7 @@ sidebar:
     # Allows to add links that are not pages included into the project
     # Display additional links anywhere into the sidebar
     additional_links:
-        -   url: https://github.com/olivier3lanc/LibDoc-remote-demo # Local or remote URL
+        -   url: https://github.com/olivier3lanc/Jekyll-LibDoc # Local or remote URL
             title: <span class="i-github u-mr-xxs"></span> View on GitHub # Link text
             order: 0 # Sets the rank of the page link into the sidebar, higher values give lower rank for the page link
             # category: Showcase # Add this this link into a category just like pages
@@ -182,20 +182,16 @@ sidebar:
         -   url: https://olivier3lanc.github.io/Scroll-Btween/
             title: Scroll Btween
             order: 500
-            category: Examples using LibDoc
+            category: Showcase
         -   url: https://olivier3lanc.github.io/Scroll-Frames/
             title: Scroll Frames
             order: 500
-            category: Examples using LibDoc
+            category: Showcase
         -   url: https://olivier3lanc.github.io/seemap/
             title: SEEMAP
             order: 500
-            category: Examples using LibDoc
+            category: Showcase
         # Example remote URL
-        -   url: https://github.com/olivier3lanc/Jekyll-LibDoc
-            title: <span class="i-github u-mr-xxs"></span> Jekyll LibDoc
-            order: 510
-            category: External resources
         -   url: https://pages.github.com
             title: Github Pages
             order: 510
@@ -208,7 +204,9 @@ sidebar:
 # BADGES
 # Feature that allows to display badges into the footer https://shields.io image html and url
 shields:
-    -   image_html: <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/olivier3lanc/LibDoc-remote-demo?logo=github&style=flat-square">
+    -   image_html: <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/olivier3lanc/Jekyll-LibDoc?logo=github&style=flat-square">
+        link_url: https://github.com/olivier3lanc/Jekyll-LibDoc
+_html: <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/olivier3lanc/LibDoc-remote-demo?logo=github&style=flat-square">
         link_url: https://github.com/olivier3lanc/LibDoc-remote-demo
     -   image_html: <img alt="no trackers, no cookies and no analytics" title="This website has no trackers, no cookies and no analytics. Only feedback is important :)" src="https://img.shields.io/badge/no%20trackers|cookies|analytics-Just%20feedback-green?style=flat-square">
         link_url: 'mailto:olivier3lanc@gmail.com'
@@ -525,6 +523,16 @@ prism:
         #- wiki
         #- wolfram
         #- xeora
+        # - xml-doc
+        #- xojo
+        #- xquery
+        - yaml
+        #- yang
+        #- zig
+
+# LIBDOC BACKLINK
+# Link powered by LibDoc - Uncomment to remove
+# disable_powered_by_link: truea
         # - xml-doc
         #- xojo
         #- xquery
