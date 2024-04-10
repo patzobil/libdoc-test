@@ -1,11 +1,13 @@
 # MacOS
 .DS_Store
 
-# Jekyll
+# Jekyll / Design System
+/design-system
 /_site
 /.sass-cache
+/_config-test.yml
 /_site
+/_config-local-ip.yml
 /_config-ip.yml
 /.jekyll-cache
 .jekyll-metadata
-.vscode
