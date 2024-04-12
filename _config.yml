@@ -204,20 +204,21 @@ sidebar:
 
 # BADGES
 # Feature that allows to display badges into the footer https://shields.io image html and url
-shields:
-    -   image_html: <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/olivier3lanc/Jekyll-LibDoc?logo=github&style=flat-square">
-        link_url: https://github.com/olivier3lanc/Jekyll-LibDoc
-    -   image_html: <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/olivier3lanc/Jekyll-LibDoc?logo=github&style=flat-square">
-        link_url: https://github.com/olivier3lanc/Jekyll-LibDoc
+# shields:
+#     -   image_html: <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/olivier3lanc/Jekyll-LibDoc?logo=github&style=flat-square">
+#         link_url: https://github.com/olivier3lanc/Jekyll-LibDoc
+#     -   image_html: <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/olivier3lanc/Jekyll-LibDoc?logo=github&style=flat-square">
+#         link_url: https://github.com/olivier3lanc/Jekyll-LibDoc
 
 # ASSETS
 # Settings for the assets layout
 assets:
     # START PATH
     # The path from which files are available to download. '/' is the root
-    path_from_root: /files
+    path_from_root: /assets/libdoc
     # List of extension files you wish to display on assets layout
-    extensions_enabled: 
+    extensions_enabled:
+        - md
         - conf
         - pdf
         - js
