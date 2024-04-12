@@ -1,3 +1,8 @@
+---
+category: Categories
+order: 200
+---
+
 # Jekyll LibDoc
 
 **A Jekyll documentation theme with built-in search and playground**
