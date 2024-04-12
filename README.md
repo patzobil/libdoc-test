@@ -1,6 +1,8 @@
 ---
 category: Categories
 order: 200
+title: Override
+description: Overriding
 ---
 
 # Jekyll LibDoc
