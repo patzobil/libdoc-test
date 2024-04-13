@@ -11,3 +11,6 @@
 /_config-ip.yml
 /.jekyll-cache
 .jekyll-metadata
+
+# Files 
+Gemfile.lock
