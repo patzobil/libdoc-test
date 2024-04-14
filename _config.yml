@@ -8,7 +8,7 @@ description: >- # Description of the docs. (>- means to ignore newlines until ne
   Lortscription
 # IMPORTANT: on Github Pages deploys, url and baseurl must be commented or set to proper settings, otherwise links and resources URL are wrong
 url: https://patzobil.github.io/  # http://192.168.1.54 # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: /libdoc-test/_site/ # the subpath of your site, e.g. /blog
+baseurl: /libdoc-test/ #_site/ # the subpath of your site, e.g. /blog
 #permalink: /:path/:basename/:output_ext
 #destination: ../your/new/path # Build relative path destination. The destination directory e.g. /blog
 #keep_files: [cache]
