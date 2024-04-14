@@ -14,3 +14,4 @@
 
 # Files 
 Gemfile.lock
+.vscode/settings.json

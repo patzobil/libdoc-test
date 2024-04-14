@@ -13,8 +13,12 @@ assets:
         - gif
         - webp
         - png
+    image_extensions:
+        - jpg
 ---
 * 
 {:toc}
 
 ## Display
+
+Some pictures taken in Taal Vista hotel in Tagaytay, depicting images from the volcano and history of Tagaytay.

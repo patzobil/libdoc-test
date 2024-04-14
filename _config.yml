@@ -7,8 +7,8 @@ title: LortDoc # title of the documentation
 description: >- # Description of the docs. (>- means to ignore newlines until next param)
   Lortscription
 # IMPORTANT: on Github Pages deploys, url and baseurl must be commented or set to proper settings, otherwise links and resources URL are wrong
-# url: http://192.168.1.54 # the base hostname & protocol for your site, e.g. http://example.com
-# baseurl: /Jekyll-LibDoc/_site # the subpath of your site, e.g. /blog
+url: https://patzobil.github.io/  # http://192.168.1.54 # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: /libdoc-test/_site/ # the subpath of your site, e.g. /blog
 #permalink: /:path/:basename/:output_ext
 #destination: ../your/new/path # Build relative path destination. The destination directory e.g. /blog
 #keep_files: [cache]
@@ -37,7 +37,7 @@ playground:
     # Relative URL from site root starting with slash /
     # Absolute URL starting with 'http'
     stylesheets: 
-        # - /demo-only/css/normalize.css
+        - /demo-only/css/normalize.css
         # - /demo-only/css/photoswipe.css
     
     # PLAYGROUND HEAD JAVASCRIPTS
@@ -59,8 +59,8 @@ playground:
     # Relative URL from site root starting with slash /
     # Absolute URL starting with 'http'
     scripts_body: # Javascript files near </body>. Can be either relative URL from site root, absolute URL starting with 'http'
-        # - /demo-only/js/ola.min.js
-        # - /demo-only/js/scroll-btween.js
+        - /demo-only/js/ola.min.js
+        - /demo-only/js/scroll-btween.js
         # - https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js
         # - /demo-only/js/demo.js
     
